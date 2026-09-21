@@ -1,0 +1,96 @@
+{
+  "kunden": [
+    {
+      "kunden_id": 1,
+      "vorname": "Ali",
+      "nachname": "Bahrami",
+      "email": "ali.bahrami@example.com",
+      "passwort_hash": "hash_001",
+      "konto_status": "AKTIV"
+    },
+    {
+      "kunden_id": 2,
+      "vorname": "Sara",
+      "nachname": "Müller",
+      "email": "sara.mueller@example.com",
+      "passwort_hash": "hash_002",
+      "konto_status": "AKTIV"
+    },
+    {
+      "kunden_id": 3,
+      "vorname": "David",
+      "nachname": "Schmidt",
+      "email": "david.schmidt@example.com",
+      "passwort_hash": "hash_003",
+      "konto_status": "AKTIV"
+    }
+  ],
+
+  "fahrraeder": [
+    {
+      "fahrrad_id": 101,
+      "modell": "Trek Marlin 7",
+      "fahrradart": "Mountainbike",
+      "farbe": "Schwarz",
+      "groesse": "L",
+      "status": "AKTIV"
+    },
+    {
+      "fahrrad_id": 102,
+      "modell": "Cube Aim Pro",
+      "fahrradart": "Mountainbike",
+      "farbe": "Blau",
+      "groesse": "M",
+      "status": "AKTIV"
+    },
+    {
+      "fahrrad_id": 103,
+      "modell": "KTM Life Tour",
+      "fahrradart": "Citybike",
+      "farbe": "Grau",
+      "groesse": "L",
+      "status": "AKTIV"
+    },
+    {
+      "fahrrad_id": 104,
+      "modell": "Scott Sub Cross",
+      "fahrradart": "Citybike",
+      "farbe": "Weiss",
+      "groesse": "M",
+      "status": "AKTIV"
+    }
+  ],
+
+  "reservierungen": [
+    {
+      "reservierungs_id": 1001,
+      "kunden_id": 1,
+      "fahrrad_id": 101,
+      "beginn": "2026-09-25T10:00:00",
+      "ende": "2026-09-25T18:00:00",
+      "status": "AKTIV",
+      "erstellt_am": "2026-09-21T14:00:00",
+      "storniert_am": null
+    },
+    {
+      "reservierungs_id": 1002,
+      "kunden_id": 2,
+      "fahrrad_id": 103,
+      "beginn": "2026-09-27T09:00:00",
+      "ende": "2026-09-27T16:00:00",
+      "status": "AKTIV",
+      "erstellt_am": "2026-09-21T14:05:00",
+      "storniert_am": null
+    },
+    {
+      "reservierungs_id": 1003,
+      "kunden_id": 3,
+      "fahrrad_id": 102,
+      "beginn": "2026-09-23T12:00:00",
+      "ende": "2026-09-23T17:00:00",
+      "status": "STORNIERT",
+      "erstellt_am": "2026-09-21T14:10:00",
+      "storniert_am": "2026-09-21T14:20:00"
+    }
+  ]
+}
